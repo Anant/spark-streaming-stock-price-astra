@@ -1,0 +1,31 @@
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3489m
+Spark Command: /home/gitpod/.sdkman/candidates/java/current/bin/java -cp /workspace/astra-spark-streaming/spark-3.4.1-bin-hadoop3/conf/:/workspace/astra-spark-streaming/spark-3.4.1-bin-hadoop3/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://anomnaco-astrasparkstre-0l6rpqg8xjr:7077
+========================================
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3489m
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+23/06/30 19:55:50 INFO Worker: Started daemon with process name: 1670@anomnaco-astrasparkstre-0l6rpqg8xjr
+23/06/30 19:55:50 INFO SignalUtils: Registering signal handler for TERM
+23/06/30 19:55:50 INFO SignalUtils: Registering signal handler for HUP
+23/06/30 19:55:50 INFO SignalUtils: Registering signal handler for INT
+23/06/30 19:55:50 WARN Utils: Your hostname, anomnaco-astrasparkstre-0l6rpqg8xjr resolves to a loopback address: 127.0.0.1; using 10.0.5.2 instead (on interface eth0)
+23/06/30 19:55:50 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+23/06/30 19:55:51 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+23/06/30 19:55:51 INFO SecurityManager: Changing view acls to: gitpod
+23/06/30 19:55:51 INFO SecurityManager: Changing modify acls to: gitpod
+23/06/30 19:55:51 INFO SecurityManager: Changing view acls groups to: 
+23/06/30 19:55:51 INFO SecurityManager: Changing modify acls groups to: 
+23/06/30 19:55:51 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: gitpod; groups with view permissions: EMPTY; users with modify permissions: gitpod; groups with modify permissions: EMPTY
+23/06/30 19:55:51 INFO Utils: Successfully started service 'sparkWorker' on port 39977.
+23/06/30 19:55:51 INFO Worker: Worker decommissioning not enabled.
+23/06/30 19:55:52 INFO Worker: Starting Spark worker 10.0.5.2:39977 with 16 cores, 61.8 GiB RAM
+23/06/30 19:55:52 INFO Worker: Running Spark version 3.4.1
+23/06/30 19:55:52 INFO Worker: Spark home: /workspace/astra-spark-streaming/spark-3.4.1-bin-hadoop3
+23/06/30 19:55:52 INFO ResourceUtils: ==============================================================
+23/06/30 19:55:52 INFO ResourceUtils: No custom resources configured for spark.worker.
+23/06/30 19:55:52 INFO ResourceUtils: ==============================================================
+23/06/30 19:55:52 INFO JettyUtils: Start Jetty 0.0.0.0:8081 for WorkerUI
+23/06/30 19:55:52 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+23/06/30 19:55:52 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://10.0.5.2:8081
+23/06/30 19:55:52 INFO Worker: Connecting to master anomnaco-astrasparkstre-0l6rpqg8xjr:7077...
+23/06/30 19:55:52 INFO TransportClientFactory: Successfully created connection to anomnaco-astrasparkstre-0l6rpqg8xjr/127.0.0.1:7077 after 57 ms (0 ms spent in bootstraps)
+23/06/30 19:55:52 INFO Worker: Successfully registered with master spark://anomnaco-astrasparkstre-0l6rpqg8xjr:7077

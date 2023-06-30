@@ -1,0 +1,25 @@
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3489m
+Spark Command: /home/gitpod/.sdkman/candidates/java/current/bin/java -cp /workspace/astra-spark-streaming/spark-3.4.1-bin-hadoop3/conf/:/workspace/astra-spark-streaming/spark-3.4.1-bin-hadoop3/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host anomnaco-astrasparkstre-0l6rpqg8xjr --port 7077 --webui-port 8080
+========================================
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3489m
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+23/06/30 19:54:58 INFO Master: Started daemon with process name: 1380@anomnaco-astrasparkstre-0l6rpqg8xjr
+23/06/30 19:54:58 INFO SignalUtils: Registering signal handler for TERM
+23/06/30 19:54:58 INFO SignalUtils: Registering signal handler for HUP
+23/06/30 19:54:58 INFO SignalUtils: Registering signal handler for INT
+23/06/30 19:54:58 WARN Utils: Your hostname, anomnaco-astrasparkstre-0l6rpqg8xjr resolves to a loopback address: 127.0.0.1; using 10.0.5.2 instead (on interface eth0)
+23/06/30 19:54:58 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+23/06/30 19:54:59 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+23/06/30 19:54:59 INFO SecurityManager: Changing view acls to: gitpod
+23/06/30 19:54:59 INFO SecurityManager: Changing modify acls to: gitpod
+23/06/30 19:54:59 INFO SecurityManager: Changing view acls groups to: 
+23/06/30 19:54:59 INFO SecurityManager: Changing modify acls groups to: 
+23/06/30 19:54:59 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: gitpod; groups with view permissions: EMPTY; users with modify permissions: gitpod; groups with modify permissions: EMPTY
+23/06/30 19:54:59 INFO Utils: Successfully started service 'sparkMaster' on port 7077.
+23/06/30 19:54:59 INFO Master: Starting Spark master at spark://anomnaco-astrasparkstre-0l6rpqg8xjr:7077
+23/06/30 19:54:59 INFO Master: Running Spark version 3.4.1
+23/06/30 19:55:00 INFO JettyUtils: Start Jetty 0.0.0.0:8080 for MasterUI
+23/06/30 19:55:00 INFO Utils: Successfully started service 'MasterUI' on port 8080.
+23/06/30 19:55:00 INFO MasterWebUI: Bound MasterWebUI to 0.0.0.0, and started at http://10.0.5.2:8080
+23/06/30 19:55:00 INFO Master: I have been elected leader! New state: ALIVE
+23/06/30 19:55:52 INFO Master: Registering worker 10.0.5.2:39977 with 16 cores, 61.8 GiB RAM
