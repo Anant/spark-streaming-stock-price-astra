@@ -1,9 +1,9 @@
 # astra-spark-streaming
 ## Quickstart in Gitpod
 
-You can either follow the directions below or [open this in gitpod](https://gitpod.io/#https://github.com/Anant/pytorch-astra-demo).
+You can either follow the directions below or [open this in gitpod](https://gitpod.io/#https://github.com/Anant/spark-streaming-stock-price-astra).
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Anant/pytorch-astra-demo)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Anant/spark-streaming-stock-price-astra)
 
 # Setting up AstraDB
 1. Go to astra.datastax.com and sign up for a free account.
